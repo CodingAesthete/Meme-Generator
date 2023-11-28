@@ -69,6 +69,19 @@ button:hover {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
+  position: relative;
+}
+
+.upper-text,
+.bottom-text {
+  position: absolute;
+  color: rgb(156, 156, 255);
+  font-size: 1.3rem;
+  padding-block: 1rem;
+}
+
+.bottom-text {
+  bottom: 0;
 }
 
 .meme-img-cont img {
